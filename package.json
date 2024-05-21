@@ -1,19 +1,18 @@
 {
-  "name": "shootinggame",
+  "name": "dhungashoot",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing testing",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "save": "^2.9.0",
     "socket.io": "^4.7.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
   }
 }

@@ -1,20 +1,7 @@
-//set up express app 
-const express = require('express');
-const { createServer } = require("http");
-const { Server } = require("socket.io");
-
+const express = require("express");
 
 const app = express();
-const httpServer = createServer(app);
 
-const io = new Server(httpServer);
+app.use(express.static("public"))
 
-io.on("connect", (socket) => {
-    console.log("socket",socket.id);
-})
-
-app.use(express.static("public"));
-
-httpServer.listen(3000);
-
-
+app.listen(5000);
