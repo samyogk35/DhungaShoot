@@ -9,6 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samyogk35/DhungaShoot.git"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "nodemon": "^3.1.0",
